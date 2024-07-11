@@ -9,7 +9,7 @@ import Cookies from "js-cookie";
 import { useEffect, useState } from "react";
 
 export default function Home() {
-    const [city, setCity] = useState("Ho Chi Minh");
+    const [city, setCity] = useState("");
     const [index, setIndex] = useState(4);
     const [current, setCurrent] = useState({});
     const [weather, setWeather] = useState({});
@@ -21,6 +21,8 @@ export default function Home() {
         const savedCity = Cookies.get("city");
         if (savedCity) {
             setCity(savedCity);
+        } else {
+            setCity("Ho Chi Minh");
         }
     }, []);
 
@@ -71,7 +73,7 @@ export default function Home() {
         }
     }, [index]);
 
-    if (!current) return;
+    if (!current || !city) return <Loading />;
     return (
         <main className='relative flex min-h-screen flex-col items-center justify-between pt-24 xl:px-40 px-10 bg-primary-100 text-black'>
             <div className='w-full flex flex-col sm:flex-row justify-between gap-10'>
