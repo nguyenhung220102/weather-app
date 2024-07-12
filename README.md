@@ -1,4 +1,4 @@
-# Weather Forecase Dashboard
+# Weather Forecast Dashboard
 
 A Weather App provides real-time weather information including temperature, humidity, wind speed, and conditions for any location. It offers a 14-day forecast, allows selection of multiple locations, and sends daily updates via email, ensuring users stay informed.
 
