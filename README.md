@@ -10,7 +10,7 @@ A Weather App provides real-time weather information including temperature, humi
 
 - View daily weather data
 - Choose location to display weather data
-- Subscribe to receive daily weather forecast via mail (9AM daily)
+- Subscribe and unsubsribe to receive daily weather forecast via mail (9AM daily, there is a button attached to daily email to unsubsribe)
 - View weather forecast data upto 14 days
 
 
