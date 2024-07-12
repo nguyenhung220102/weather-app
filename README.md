@@ -1,6 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-
 # Weather Forecase Dashboard
 
 A Weather App provides real-time weather information including temperature, humidity, wind speed, and conditions for any location. It offers a 14-day forecast, allows selection of multiple locations, and sends daily updates via email, ensuring users stay informed.
@@ -8,21 +5,20 @@ A Weather App provides real-time weather information including temperature, humi
 ## Demo
 
 [Weather Web Application](https://weather-app-lake-pi-20.vercel.app/)
-
+(Please note that the backend is deployed on a free plan using Render.com. The free instance will spin down with inactivity, which can delay requests by 50 seconds or more. Therefore, you may experience delays of up to 1 minute when first browsing the website)
 ## Features
 
 - View daily weather data
 - Choose location to display weather data
 - Subscribe to receive daily weather forecast via mail
 - View weather forecast data upto 14 days
-- Responsive view for desktop/mobile
 
 
 ## Installation
 
 Install the necessary dependencies
 ```bash
-  npm install
+npm install
 ```
 Start the application in development mode
 ```bash
